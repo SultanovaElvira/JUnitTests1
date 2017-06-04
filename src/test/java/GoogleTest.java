@@ -34,7 +34,8 @@ public class GoogleTest {
 
     @Test
     public  void search_selenide_in_google() {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\LENOVO\\IdeaProjects\\chromedriver_win32\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver","C:\\Users\\LENOVO\\IdeaProjects\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\SERVER\\IdeaProjects\\chromedriver_win32\\chromedriver.exe");
         Configuration.browser = "chrome";
 
         open("http://www.google.com");
