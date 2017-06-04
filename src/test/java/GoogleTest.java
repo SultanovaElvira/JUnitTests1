@@ -41,10 +41,6 @@ public class GoogleTest {
         $(By.name("q")).setValue("Selenide").pressEnter();
         $$("#ires div.g").shouldHaveSize(10);
         $("#ires div.g").shouldHave(text(" Selenide "));
-
-        //GooglePage page = open("http://google.com", GooglePage.class);
-        //page.searchFor("selenide");
-        //assertEquals(10, page.results().size());
-        //(page.getResult(0).getText().contains("selenide.org"));
+        
     }
 }
