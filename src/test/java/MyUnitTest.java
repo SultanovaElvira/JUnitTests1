@@ -14,7 +14,7 @@ public class MyUnitTest {
 
         String result = myUnit.concatenate("one", "two");
 
-        assertEquals("onetwoo", result);
+        assertEquals("onetwo", result);
 
     }
 }
